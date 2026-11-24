@@ -160,8 +160,8 @@
   function B() { return BR[db()]; }
 
   /* ── i18n: Indonesian strings are the keys; window.EN holds English ── */
-  var LANG = 'id';
-  try { LANG = localStorage.getItem('pl-lang') === 'en' ? 'en' : 'id'; } catch (e) {}
+  var LANG = 'en'; // English by default since 24 Nov 2026 (Thomas); a saved 'id' wins
+  try { LANG = localStorage.getItem('pl-lang') === 'id' ? 'id' : 'en'; } catch (e) {}
   var HAS = Object.prototype.hasOwnProperty, LEGACY_TIER = { Silver: 0, Gold: 1, Platinum: 2 };
   /* the demo views speak for the active brand: brand dictionary, then English, then brand names, outlet, code prefix and tier names */
   function brandify(r) {
