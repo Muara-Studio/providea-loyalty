@@ -556,7 +556,7 @@
       '<p>' + T('Kartu member, poin, dan voucher tanpa aplikasi untuk merek dengan 1 sampai 20 outlet.') + '</p></div>' +
       col('Produk', [['Kartu member di HP', 'anggota.html#/home'], ['Aplikasi kasir', 'kasir.html'], ['Dashboard pemilik', 'dashboard.html'], ['Cara kerja', 'index.html#cara-kerja'], ['Harga', 'harga.html']]) +
       col('Kisah pelanggan', [['Kamtono', 'kisah.html?k=kamtono'], ['Mendaya Ramen', 'kisah.html?k=mendaya'], ['Bobs', 'kisah.html?k=bobs']]) +
-      col('Providea', [['Tentang Providea', '../'], ['Providea Influence', '../influence/'], ['Hubungi kami', 'mailto:hello@providea.com', false, 'mail'], ['Coba demo', 'masuk.html#demo']]) +
+      col('Providea', [['Tentang Providea', 'https://providea.com.au/'], ['Providea Influence', 'https://influence.providea.com.au/'], ['Hubungi kami', 'mailto:hello@providea.com', false, 'mail'], ['Coba demo', 'masuk.html#demo']]) +
       '</div><div class="sfoot-bottom"><span>© 2026 Providea</span><span>' + T('Providea Loyalty · demo produk. Merek, orang, dan angka di demo ini fiktif. Gambar kafe adalah ilustrasi.') + '</span></div></footer>';
   }
   function renderBar() {
